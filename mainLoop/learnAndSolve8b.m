@@ -3,7 +3,7 @@ function rez = learnAndSolve8b(rez, iorder)
 
 Nbatches = rez.ops.Nbatch;
 
-rng(iseed);
+rng(iorder);
 % if getOr(rez.ops, 'midpoint', 0)
 %     rez.iorig = randperm(Nbatches);
 % end
